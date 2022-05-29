@@ -60,7 +60,7 @@ def runner(
           if i!=0 :
              if (token!="") and i!=0:
                    break
-          ctx.get("http://20.118.216.29/demo1")
+          ctx.get("http://20.118.216.29/demo.html")
 
           challenger.anti_checkbox(ctx)
 
@@ -93,7 +93,7 @@ def runner(
               if (token!="") and i!=0:
                    break
 
-          ctx.get("http://20.118.216.29/demo2")
+          ctx.get("http://20.118.216.29/demo2.html")
 
           challenger.anti_checkbox(ctx)
 
