@@ -49,7 +49,7 @@ def runner(
     while (tasklist==0):
         tasklist=mydatabase.res.count_documents({})
 
-        print(tasklist)
+        
   
     ai_task=mydatabase.res.find_one_and_delete({})
     print(ai_task)
